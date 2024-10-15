@@ -25,4 +25,10 @@ public class Person {
 
     @PositiveOrZero (message = "Id must be greater than or equal to zero")
     private String employeeID;
+
+    @NotBlank(message = "Title cannot be blank")
+    private String title;
+
+    @NotBlank(message = "Department cannot be blank")
+    private String department;
 }
