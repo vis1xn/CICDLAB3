@@ -29,6 +29,6 @@ public class Person {
     @NotBlank(message = "Title cannot be blank")
     private String title;
 
-    @NotBlank(message = "Department cannot be blank")
+    @NotBlank(message = "Department cannot be empty")
     private String department;
 }

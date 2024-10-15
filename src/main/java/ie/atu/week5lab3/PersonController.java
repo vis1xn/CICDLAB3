@@ -10,7 +10,7 @@ import java.util.List;
 @RequestMapping("/person")
 public class PersonController {
     List<Person>personList = new ArrayList<>();
-    @GetMapping("/person")
+    @GetMapping("/listPerson")
     private List<Person> getPerson(){
         return personList;
     }
